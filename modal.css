@@ -1,0 +1,93 @@
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.9);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.close{
+    display: none !important;
+}
+.modal_container{
+    background: rgba(0, 0, 0, 0);
+    width: 650px;
+    min-height: 580px;
+    overflow: hidden;
+    animation: modalFadeIn ease 0.3s;
+}
+.modal_close{
+    position: absolute;
+    top: 35px;
+    right: calc((100vw - 750px)/2);
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+.modal_button{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 650px;
+    font-size: 30px;
+    cursor: pointer;
+    color:rgb(255, 81, 0);
+    z-index: 100;
+    top: 50%;
+}
+.btnLeft{
+    position: absolute;
+    left: -60px;
+    padding: 20px;
+    transition: 0.5s;
+}
+.btnLeft:active{
+    left: -80px;
+}
+.btnRight{
+    position: absolute;
+    right: -60px;
+    padding: 20px;
+    transition: 0.5s;
+}
+.btnRight:active{
+    right: -80px;
+}
+
+.modal_body{
+    display: flex;
+    transition: 0.3s;
+}
+.box {
+    transition: 0.3s ;
+    border-radius: 5px;
+}
+.modal_title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+.modal_img{
+    position: relative;
+    width: 650px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(37, 37, 37);
+}
+
+@keyframes modalFadeIn{
+    from { 
+        opacity:0;
+        transform: translateY(-140px);
+    }
+    to { 
+        opacity:1;
+        transform: translateY(0px);
+    }
+}
