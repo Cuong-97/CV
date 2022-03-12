@@ -79,8 +79,8 @@ body{
     width: 0;
 	height: 0;
     bottom: 0;
-	border-bottom: 59px solid #272F37;
-	border-right: 115px solid transparent;
+	border-bottom: 49px solid #272F37;
+	border-right: 97px solid transparent;
 }
 .triangle_bottomright_big{
     position: absolute;
@@ -96,9 +96,9 @@ body{
     width: 0;
 	height: 0;
     bottom: 0;
-    left: 187.5px;
-	border-bottom: 59px solid #272F37;
-	border-left: 115px solid transparent;
+    left: 204.5px;
+	border-bottom: 49px solid #272F37;
+	border-left: 97px solid transparent;
 }
 
 
