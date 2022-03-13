@@ -24,9 +24,13 @@
     position: absolute;
     top: 35px;
     right: calc((100vw - 750px)/2);
-    font-size: 30px;
+    font-size: 35px;
     color: #fff;
+    transition: 0.3s;
     cursor: pointer;
+}
+.modal_close:hover{
+    color: rgb(0, 255, 98);
 }
 .modal_button{
     position: absolute;
