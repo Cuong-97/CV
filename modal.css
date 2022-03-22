@@ -15,7 +15,7 @@
 }
 .modal_container{
     background: rgba(0, 0, 0, 0);
-    width: 650px;
+    width: 850px;
     min-height: 580px;
     overflow: hidden;
     animation: modalFadeIn ease 0.3s;
@@ -23,7 +23,7 @@
 .modal_close{
     position: absolute;
     top: 35px;
-    right: calc((100vw - 750px)/2);
+    right: calc((100vw - 850px)/2);
     font-size: 35px;
     color: #fff;
     transition: 0.3s;
@@ -37,7 +37,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 650px;
+    width: 850px;
     font-size: 30px;
     cursor: pointer;
     color:rgb(255, 81, 0);
@@ -80,7 +80,7 @@
 }
 .modal_img{
     position: relative;
-    width: 650px;
+    width: 850px;
     border-radius: 20px;
     box-shadow: 5px 5px 10px rgb(37, 37, 37);
 }

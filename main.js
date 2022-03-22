@@ -9,9 +9,9 @@ modalOpen.addEventListener('click', function(){
 });
 
 // click vào dấu X để đóng
-modalClose.addEventListener('click', function(){
-    modal.classList.add('close');
-});
+// modalClose.addEventListener('click', function(){
+//     modal.classList.add('close');
+// });
 
 // click bên ngoài modal vẫn có thể đóng
 modal.addEventListener('click', function(){
