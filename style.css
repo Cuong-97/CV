@@ -8,6 +8,37 @@ body{
     background-color: #E6E6E6;
     height: 1496px;
 }
+.btn_translate_1{
+    position: fixed;
+    display: block;
+    cursor: pointer;
+    top: 0;
+    right: 130px;
+    height:40px;
+}
+.btn_translate_2{
+    position: fixed;
+    display: block;
+    cursor: pointer;
+    top: 0;
+    right: 30px;
+}
+.btn_flag_1{
+    width:30px;
+    line-height:40px;
+}
+.btn_flag_2{
+    width:30px;
+    line-height:40px;
+}
+.btn_text_1{
+    font-size: 14px;
+    line-height:40px;
+}
+.btn_text_2{
+    font-size: 14px;
+    line-height:40px;
+}
 .CV{
     position: absolute;
     top: 96px;
@@ -62,7 +93,7 @@ body{
     top: 132px;
     left: 25%;
     font-size: 18px;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     text-align: center;
     color:rgb(255, 255, 255);
 }
