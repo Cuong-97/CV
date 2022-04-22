@@ -4,7 +4,7 @@ function japan() {
     header_title.style.letterSpacing = '12px';
 
     let header_text = document.querySelector('.header_text');
-    header_text.textContent = 'ウェブデザイナー';
+    header_text.textContent = 'フロントエンド開発';
     header_text.style.letterSpacing = '10px';
 
     let infor_translate = document.querySelector('.infor_translate');
@@ -113,7 +113,7 @@ function english() {
     header_title.style.letterSpacing = '6px';
 
     let header_text = document.querySelector('.header_text');
-    header_text.textContent = 'Web Designer';
+    header_text.textContent = 'Frontend Development';
     header_text.style.letterSpacing = '4px';
 
     let infor_translate = document.querySelector('.infor_translate');
